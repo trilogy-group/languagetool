@@ -4,9 +4,7 @@
 
 1. Create and install devspaces client as it is written in help guide https://support.devspaces.io/article/22-devspaces-client-installation.
 
-2. Deploy your development environment into DF devspaces following this guide https://support.devspaces.io/article/23-support-guidelines 
-
-3. Here is some details about DF Devspaces https://devspaces.io/devspaces/help
+2. Here is some details about DF Devspaces https://devspaces.io/devspaces/help
 
 Here follows the main commands used in Devspaces cli. 
 
