@@ -98,6 +98,7 @@ with `xx` being the code for your language, e.g. en-US for American English or j
 10. Also you may run the test
 
 ```bash
+cd ../../../../
 mvn clean test
 ```
 
