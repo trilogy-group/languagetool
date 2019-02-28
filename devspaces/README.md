@@ -40,31 +40,25 @@ devspaces start languagetool
 devspaces bind languagetool
 ```
 
-4. Clone the source inside the sync folder from previous step. You may check out the sync process by openning http://localhost:49152/ in your browser.
-
-```bash
-git clone https://github.com/trilogy-group/languagetool.git
-```
-
-5. Get some information about created devspace. 
+4. Get some information about created devspace. 
 
 ```bash
 devspaces info languagetool
 ```
 
-6. Connect to development container
+5. Connect to development container
 
 ```bash
 devspaces exec languagetool
 ```
 
-7. Source maven env variables
+6. Source maven env variables
 
 ```bash
 source /etc/profile.d/apache-maven.sh
 ```
 
-8. Build the project 
+7. Build the project 
 
 ```bash
 cd language
@@ -85,7 +79,7 @@ Builds wikipedia package:
 ./build.sh languagetool-wikipedia package -DskipTests
 ```
 
-9. Run the project.
+8. Run the project.
 
 ```bash
 cd languagetool-standalone/target/LanguageTool-4.3-SNAPSHOT/LanguageTool-4.3-SNAPSHOT
@@ -95,7 +89,7 @@ java -jar languagetool-commandline.jar -l <xx> <filename>
 with `xx` being the code for your language, e.g. en-US for American English or just en for English without spell checking activated. For `filename` use any textfile.
 
 
-10. Also you may run the test
+9. Also you may run the test
 
 ```bash
 cd ../../../../
