@@ -4,7 +4,7 @@ description:  Development environment for Language Tool
 
 # If you want to use a different Dockerfile for your DevSpace, provide the path
 # here.
-docker-file: Dockerfile
+docker-file: docker/Dockerfile
 
 # If you need additional files when building your Dockerfile, such as some
 # application binaries that your Dockerfile references, list the glob paths to
