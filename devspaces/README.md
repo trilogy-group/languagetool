@@ -61,7 +61,6 @@ source /etc/profile.d/apache-maven.sh
 7. Build the project 
 
 ```bash
-cd language
 mvn package -DskipTests
 ```
 
